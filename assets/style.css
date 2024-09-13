@@ -1,0 +1,124 @@
+:root {
+    --ideal: #dac58b;
+    --industrial: #cedcf7;
+    --modpack: #d9f59e;
+    --minecraft: #faf7db;
+    --author: #edd5ff;
+    --gray: #e5e5e4;
+    --title: #414141;
+    --text: #40667c;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    color: var(--title);
+}
+
+h3 {
+    margin: 0;
+}
+
+p, li {
+    font-size: x-large;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.background{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-image: url(../assets/background.jpg);
+    background-size: auto;
+    opacity: 0.2;
+    z-index: -100;
+}
+
+.site-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: -0.01em;
+    line-height: normal;
+    text-align: center;
+    text-shadow: -2px -2px 0px black, -2px 2px 0px black, 2px 2px 0px black, 2px -2px 0px black;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.ideal {
+    color: var(--ideal);
+}
+
+.industrial {
+    color: var(--industrial);
+}
+
+.modpack {
+    color: var(--modpack);
+}
+
+.author {
+    color: var(--author);
+}
+
+.minecraft {
+    color: var(--minecraft);
+}
+
+.container {
+    max-width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container.wide {
+    max-width: 900px;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+}
+
+.text {
+    font-size: large;
+}
